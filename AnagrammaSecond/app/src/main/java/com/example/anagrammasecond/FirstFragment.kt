@@ -35,7 +35,6 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         showAnagram(binding.text)
-//        binding.button.setOnClickListener { myViewModel.makeAnagramAuto() }
     }
 
     private fun showAnagram(textView: TextView) {
